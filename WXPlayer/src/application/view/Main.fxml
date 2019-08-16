@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.svg.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainController">
+   <children>
+      <JFXToggleButton fx:id="saveToggle" layoutX="118.0" layoutY="167.0" text="Save time" toggleColor="#1a237e" toggleLineColor="#7b84d3" />
+      <JFXToggleButton fx:id="skipToggle" layoutX="253.0" layoutY="167.0" text="Skip menu" toggleColor="#1a237e" toggleLineColor="#7b84d3" />
+      <JFXButton fx:id="CDButton" layoutX="119.0" layoutY="128.0" onAction="#handle" prefHeight="34.0" prefWidth="86.0" ripplerFill="#00000090" style="-fx-text-fill: #1A237E; -fx-background-radius: 50;" text="Select CD" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font></JFXButton>
+      <Label fx:id="CDLabel" layoutX="129.0" layoutY="101.0" prefHeight="27.0" prefWidth="280.0" text="Placeholder" textFill="#000000c0">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <JFXButton fx:id="playButton" contentDisplay="CENTER" layoutX="214.0" layoutY="128.0" onAction="#pushToController" prefHeight="34.0" prefWidth="86.0" ripplerFill="#00000088" text="PLAY" />
+      <Button fx:id="CDGlyph" contentDisplay="GRAPHIC_ONLY" layoutX="27.0" layoutY="90.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="Button" />
+      <Button fx:id="mediaGlyph" contentDisplay="GRAPHIC_ONLY" layoutX="26.0" layoutY="300.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="86.0" style="-fx-background-color: transparent;" text="Button" />
+      <JFXButton fx:id="mediaPlay" contentDisplay="CENTER" layoutX="214.0" layoutY="338.0" onAction="#pushToController" prefHeight="34.0" prefWidth="86.0" ripplerFill="#00000088" text="PLAY" />
+      <Label fx:id="mediaLabel" layoutX="128.0" layoutY="311.0" prefHeight="27.0" prefWidth="280.0" text="Placeholder" textFill="#000000c0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="118.0" layoutY="338.0" onAction="#handleOther" prefHeight="34.0" prefWidth="108.0" ripplerFill="#00000090" style="-fx-text-fill: #1A237E; -fx-background-radius: 50;" text="Select Media" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane fx:id="borderPane" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.VideoController">
+   <bottom>
+      <VBox prefHeight="173.0" prefWidth="800.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane fx:id="scrubberGrid" style="-fx-background-color: linear-gradient(to top, rgba(0,0,0,.3), rgba(0,0,0,.0));">
+              <columnConstraints>
+                <ColumnConstraints halignment="CENTER" hgrow="ALWAYS" minWidth="10.0" prefWidth="475.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <JFXSlider fx:id="progressSlider" prefHeight="14.0" GridPane.halignment="LEFT" GridPane.hgrow="ALWAYS">
+                     <padding>
+                        <Insets left="30.0" />
+                     </padding>
+                     <GridPane.margin>
+                        <Insets right="20.0" />
+                     </GridPane.margin>
+                  </JFXSlider>
+                  <Label fx:id="progressLabel" contentDisplay="RIGHT" maxWidth="-Infinity" prefHeight="28.0" prefWidth="125.0" text="Label" textFill="WHITE" GridPane.halignment="RIGHT">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                     <padding>
+                        <Insets left="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </GridPane>
+            <HBox fx:id="ctrlBox" alignment="CENTER" prefHeight="146.0" prefWidth="600.0" style="-fx-background-color: linear-gradient(to top, rgba(0,0,0,.7), rgba(0,0,0,.3));">
+               <children>
+                  <JFXButton fx:id="menuButton" prefHeight="61.0" prefWidth="61.0" text="MENU" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="aspectButton" contentDisplay="GRAPHIC_ONLY" prefHeight="81.0" prefWidth="81.0" ripplerFill="#949494" />
+                  <JFXButton fx:id="backTen" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="81.0" prefWidth="81.0" ripplerFill="#949494" style="-fx-background-radius: 50% 50% 50% 50%;" />
+                  <JFXButton fx:id="playButton" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="81.0" prefWidth="81.0" ripplerFill="#949494" style="-fx-background-radius: 50% 50% 50% 50%;" textAlignment="JUSTIFY" textFill="WHITE">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                  </JFXButton>
+                  <JFXButton fx:id="forTen" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="81.0" prefWidth="81.0" ripplerFill="#949494" style="-fx-background-radius: 50% 50% 50% 50%;" />
+                  <JFXButton fx:id="stopButton" alignment="CENTER" contentDisplay="GRAPHIC_ONLY" prefHeight="81.0" prefWidth="81.0" ripplerFill="#949494" style="-fx-background-radius: 50% 50% 50% 50%;" textFill="WHITE" visible="false" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+   <center>
+      <StackPane prefHeight="150.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
