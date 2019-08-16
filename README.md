@@ -37,6 +37,29 @@ When it came to implementing the other media feature, a lot of the components fo
 
 **Development status:** Now finished. The main purpose of the app was implemented, as far as I can tell, completely. 
 
+### Screenshots: CD Player - Fullscreen and default media resolution
 
+<img src="assets/Screenshot%208_15_2019%208_27_07%20PM.png"></img>
+<img src="assets/Screenshot%208_15_2019%208_27_15%20PM.png"></img>
+<img src="assets/Screenshot%208_16_2019%201_32_20%20PM.png"></img>
+<img src="assets/Screenshot%208_16_2019%201_32_25%20PM.png"></img>
+
+
+### Screenshots: Other media - Fullscreen and default media resoltuion
+
+<img src="assets/Screenshot%208_16_2019%201_33_24%20PM.png"></img>
+<img src="assets/Screenshot%208_16_2019%201_33_51%20PM.png"></img>
+
+### Screenshots: Main menu
+
+<img src="assets/main_menu.JPG"></img>
+
+### Licenses and legal information
+JFoenix License - Utilizes the Apache license
+VLCJ 4.0 License - Utilizes the GNU GPL licence v3. 
+
+See the repo for details.
+
+I want to ensure that the authors of both libraries I used receive full credit, and that I conform to their licenses. If any discrepencies arise, please let me know.
 
 
