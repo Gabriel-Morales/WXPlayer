@@ -29,6 +29,7 @@ that I was unable/didn't have the knowledge to circumvent.
 * "Save time" feature purposely unimplemented (in the code anyway) as the video view would not load with it as such.
 * When loading anything that is not a CD (i.e. other media), the aspect ratio button does not work. However, I purposely disregarded the stop button and menu button when it came to other media, hence you won't see the stop button and the menu button does not work.
 * Either this bug occurs with solely other media or resolutions higher than your own, but the scaling magic somewhat breaks as a result. All the movies I tested the app with worked perfectly but note that their resolutions were almost always 720x480. You'll see this error in the screenshots below.
+* Progress bar has a *semi* hardcoded size. Although it has a dynamic calculation, it does use a "magic number" to scale it. A proposed solution is to take the size of the time label and the size of the stage and subtract the two, making that the progress bar's max size instead. 
 
 
 ### Additional notes
