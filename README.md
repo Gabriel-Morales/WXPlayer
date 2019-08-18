@@ -27,15 +27,15 @@ that I was unable/didn't have the knowledge to circumvent.
 * On occasion the app will crash when pushing to the video view due to the VLCJ release. This doesn't happen often, so it's not much cause for concern.
 * Because there's a heavy use of the ```Platform.runlater(...)``` and I'm putting most updates to the UI to be executed later, a rare bug occurs where some components begin blinking white on window resize.
 * "Save time" feature purposely unimplemented (in the code anyway) as the video view would not load with it as such.
-* When loading anything that is not a CD (i.e. other media), the aspect ratio button does not work. However, I purposely disregarded the stop button and menu button when it came to other media, hence you won't see the stop button and the menu button does not work.
+* When loading anything that is not a CD (i.e. other media), the aspect ratio button does not work. However, I purposely disregarded the menu button when it came to other media, hence you'll see the menu button on other media, but it does not work there.
 * Either this bug occurs with solely other media or resolutions higher than your own, but the scaling magic somewhat breaks as a result. All the movies I tested the app with worked perfectly but note that their resolutions were almost always 720x480. You'll see this error in the screenshots below.
 * Progress bar has a *semi* hardcoded size. Although it has a dynamic calculation, it does use a "magic number" to scale it. A proposed solution is to take the size of the time label and the size of the stage and subtract the two, making that the progress bar's max size instead. 
-
+* When packaging the application completely as a desktop app (i.e. not in eclipse but native), pushing to the video view doesn't work at all.
 
 ### Additional notes
 When it came to implementing the other media feature, a lot of the components for the media have purposely been unimplemented. For example, you'll notice the menu option remains even when not playing a CD. This is because I left it as such.
 
-**Development status:** Now finished. The main purpose of the app was implemented, as far as I can tell, completely. 
+**Development status:** Finished, unless a major bug arises. The sole purpose has been completed. 
 
 ### Screenshots: CD Player - Fullscreen and default media resolution
 
