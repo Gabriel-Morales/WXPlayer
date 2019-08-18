@@ -55,13 +55,13 @@ When it came to implementing the other media feature, a lot of the components fo
 <img src="assets/main_menu.JPG"></img>
 
 ### Licenses and legal information
-JFoenix License - Utilizes the Apache license
+JFoenix License - Utilizes the Apache license <br></br>
 VLCJ 4.0 License - Utilizes the GNU GPL licence v3. 
 
 Note that my project also uses GNU GPL.
 
 See the repo for details.
 
-I want to ensure that the authors of both libraries I used receive full credit, and that I conform to their licenses. If any discrepencies arise, please let me know.
+I want to ensure that the authors of both libraries I used receive full credit, and that I conform to their licenses. If any discrepancies arise, please let me know.
 
 
