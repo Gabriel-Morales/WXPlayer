@@ -45,11 +45,6 @@ When it came to implementing the other media feature, a lot of the components fo
 <img src="assets/Screenshot%208_16_2019%201_32_25%20PM.png"></img>
 
 
-### Screenshots: Other media - Fullscreen and default media resoltuion
-
-<img src="assets/Screenshot%208_16_2019%201_33_24%20PM.png"></img>
-<img src="assets/Screenshot%208_16_2019%201_33_51%20PM.png"></img>
-
 ### Screenshots: Main menu
 
 <img src="assets/main_menu.JPG"></img>
